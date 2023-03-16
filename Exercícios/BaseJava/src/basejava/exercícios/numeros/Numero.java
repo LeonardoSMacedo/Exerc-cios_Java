@@ -1,5 +1,5 @@
 
-package basejava;
+package basejava.exercícios.numeros;
 
 public class Numero {
     int valor;    
@@ -27,22 +27,22 @@ public int maior(int v1, int v2){
     }
         return v2;
 }
-    public String ordemCrescente(int valor1, int valor2, int valor 3){
+    public String ordemCrescente(int valor1, int valor2, int valor3){
         int temp = 0;
         if(valor1 > valor2){
             temp = valor1;
             valor1 = valor2;
             valor2 = temp;
         }
-        if(valor2 > valor3){
-            temp = valor3;
-            valor3 = valor2;
-            valor2 = temp;
-    }
         if(valor1 > valor3){
-        temp = valor2;
-        valor3 = valor1;
-        valor1 = temp;
+            temp = valor3;
+            valor3 = valor1;
+            valor1 = temp;
+        }
+        if(valor2 > valor3){
+            temp = valor2;
+            valor2 = valor3;
+            valor3 = temp;
 }
 return valor1 + " - " + valor2 + " - " + valor3;
     }
