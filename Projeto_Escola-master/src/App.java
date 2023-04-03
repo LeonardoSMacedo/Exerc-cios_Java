@@ -1,14 +1,9 @@
 import javax.swing.JOptionPane;
-
-//import br.com.escolaweb.controller.AlunoController;
 import br.com.escolaweb.controller.FuncionarioController;
-import br.com.escolaweb.model.Aluno;
 import br.com.escolaweb.model.Funcionario;
-
-public class App {
+    public class App {
     public static void main(String[] args) {
         try {
-            //Aluno aluno = new Aluno();
             Funcionario funcionarios = new Funcionario();
             funcionarios.setNome("Ana Lúcia");
             funcionarios.setEmail("ana@email.com");
