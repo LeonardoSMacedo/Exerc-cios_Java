@@ -23,12 +23,8 @@ public class AlunoController {
             throw new Exception("Senha invalida!");
         }
 
-        //if (aluno.getDataNasc().equals(null)) {
-         //   throw new Exception("Data de nascimento embranco!");
-       // }
-
-        AlunoService alunoService = new AlunoService();
-        alunoService.add(aluno);
+        AlunoService alunoservice = new AlunoService();
+        alunoservice.add(aluno);
 
     }
 }

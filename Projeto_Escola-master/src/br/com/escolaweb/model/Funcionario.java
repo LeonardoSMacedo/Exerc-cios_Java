@@ -1,4 +1,8 @@
+// Iuri Alan de Almeida
+
 package br.com.escolaweb.model;
+
+import java.util.List;
 
 public class Funcionario extends Pessoa {
     private String cargo;
@@ -9,5 +13,8 @@ public class Funcionario extends Pessoa {
 
     public void setCargo(String cargo) {
         this.cargo = cargo;
+    }
+
+    public void add(List<Funcionario> funcionario) {
     }
 }
