@@ -1,5 +1,4 @@
-// Iuri Alan de Almeida
-
+//Leonardo de Souza Macedo
 package br.com.escolaweb.model;
 
 import java.util.List;
